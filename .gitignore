@@ -1,0 +1,30 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+
+# IDE
+.idea/
+*.iml
+.vscode/*
+!.vscode/launch.json
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+*.jks
+
+# macOS
+.DS_Store
+
+# API Keys (สำคัญมาก!)
+.env
+*.env
+lib/config/api_keys.dart
+lib/config/api_config.dart
